@@ -1,3 +1,4 @@
+import { type JSX } from "react";
 import WorkspaceLogo from "../assets/workspace_logo.svg";
 import Chevron from "../assets/chevron.svg";
 import ThreeDots from "../assets/three_dots.svg";
@@ -5,7 +6,7 @@ import SearchIcon from "../assets/search_icon.svg";
 import NotificationBell from "../assets/notification_bell.svg";
 import Pfp from "../assets/pfp.png";
 
-function TopBar() {
+function TopBar(): JSX.Element {
   return (
     <div className="text-[14px] font-[500] items-center justify-between border-b border-[#EEEEEE] flex flex-row w-full h-[56px] px-[16px] py-[8px] border">
       <div className="flex flex-row items-center h-[24px] w-[343px] gap-[16px]">
