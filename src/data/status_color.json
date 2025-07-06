@@ -1,0 +1,18 @@
+{
+  "In-process": {
+    "text-color": "#85640B",
+    "bg": "#FFF3D6"
+  },
+  "Need to start": {
+    "text-color": "#475569",
+    "bg": "#E2E8F0"
+  },
+  "Complete": {
+    "text-color": "#0A6E3D",
+    "bg": "#D3F2E3"
+  },
+  "Blocked": {
+    "text-color": "#C22219",
+    "bg": "#FFE1DE"
+  }
+}
