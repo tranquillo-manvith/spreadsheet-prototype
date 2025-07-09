@@ -1,19 +1,19 @@
 import { type JSX } from "react";
-import DoubleChevron from "../assets/chevron_double.svg";
-import Seperator from "../assets/seperator.svg";
-import HideIcon from "../assets/hide_eye.svg";
-import ArrowSort from "../assets/arrow_sort.svg";
-import Filter from "../assets/filter.svg";
-import ArrowAutofit from "../assets/arrow_autofit.svg";
-import Import from "../assets/arrow_download.svg";
-import Export from "../assets/arrow_upload.svg";
-import Share from "../assets/share.svg";
-import ArrowSplit from "../assets/arrow_split.svg";
+import DoubleChevron from "../assets/row/chevron_double.svg";
+import Seperator from "../assets/row/seperator.svg";
+import HideIcon from "../assets/row/hide_eye.svg";
+import ArrowSort from "../assets/row/arrow_sort.svg";
+import Filter from "../assets/row/filter.svg";
+import ArrowAutofit from "../assets/row/arrow_autofit.svg";
+import Import from "../assets/row/arrow_download.svg";
+import Export from "../assets/row/arrow_upload.svg";
+import Share from "../assets/row/share.svg";
+import ArrowSplit from "../assets/row/arrow_split.svg";
 
 function Row(): JSX.Element {
   return (
-    <div className="flex flex-row items-center px-[6px] py-[8px] h-[48px] border-b border-[#EEEEEE] gap-[8px] ">
-      <button className="toolbar flex flex-row items-center p-[8px] gap-[4px] hover:bg-[#f5f5f5] rounded-[4px] cursor-pointer w-[91px]">
+    <div className="flex flex-row items-center px-[8px] py-[8px] h-[48px] border-b border-[#EEEEEE] gap-[8px] ">
+      <button className="toolbar flex flex-row items-center text-[14px] font-[400] text-[#121212] p-[8px] gap-[4px] hover:bg-[#f5f5f5] rounded-[4px] cursor-pointer w-[91px]">
         <div className="text-[14px] font-[400] text-[#121212]">Tool bar</div>
         <img src={DoubleChevron} alt="toolbar"></img>
       </button>
@@ -61,9 +61,11 @@ function Row(): JSX.Element {
           <img
             src={ArrowSplit}
             alt="new action"
-            className="h-[15px] w-[15px]"
+            className="h-[20px] w-[20px]"
           ></img>
-          <div className="text-[14px] text-[#FFFFFF] ">New Action</div>
+          <div className="text-[14px] font-[500] text-[#FFFFFF] ">
+            New Action
+          </div>
         </button>
       </div>
     </div>
